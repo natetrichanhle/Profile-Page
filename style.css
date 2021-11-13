@@ -1,0 +1,163 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.align {
+    align-items: center;
+}
+
+.nav {
+    justify-content: space-between;
+    background-color:#5C4827;
+    color: #FFFDD0;
+    padding: 0% 10% 0% 10%;
+}
+
+.main {
+    /* background-color: #FFFDD0; */
+    height: 1080px;
+    padding: 0% 10% 0% 10%;
+}
+
+.columns {
+    /* background-color: white; */
+    height: 100%;
+}
+
+.col-1 {
+    padding: 20px;
+    flex:2;
+    /* background-color: rgb(181,101,30); */
+    height: 100%;
+}
+
+.col-2 {
+    padding: 20px;
+    flex:3;
+    /* background-color: #949E83; */
+    height: 100%; 
+}
+
+.profile {
+    border: 5px solid #5C4827;
+    margin-bottom: 20px;
+}
+
+.profile-body {
+    padding: 20px;
+}
+
+.header {
+    background-color: rgb(181,101,30);
+    height: 125px;
+    margin-bottom: 50px;
+}
+
+.subheader {
+    background-color: #949E83;
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    margin: 20px 0px 0px 20px;
+    height: 190px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.icon-s, .gearbox{
+    height: 20px;
+    color: #3a81e6;
+    margin-right: 10px;
+}
+
+.nav-links {
+    color:transparent;
+    display: flex;
+    align-items: center;
+}
+
+.nav-title {
+    color: #FFFDD0;
+    padding-left: 20px;
+}
+
+.active {
+    color: #FFFDD0;
+    text-decoration: none;
+    margin: 10px;
+}
+
+:hover.active {
+    font-weight: bold;
+}
+
+.btn {
+    color: #FFFDD0;
+    font-weight: bold;
+    background-color: #949E83;
+    border: 2px solid rgb(181,101,30);
+    box-shadow: 2px 2px 2px rgb(181,101,30);
+    padding: 5px 20px;
+    margin-right: 20px;
+}
+
+.education-body p {
+    color: rgb(192,198,200);
+}
+
+.req {
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(192,198,200);
+    height: 50px;
+    width: 50px;
+    border: none;
+    margin-right: 10px;
+}
+
+.ppl-s, .yesno {
+    height: 50px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.mycon {
+    border-radius: 45%;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(192,198,200);
+    width: 70px;
+    border: none;
+    margin-right: 10px;
+}
+
+.view {
+    color: #3a81e6;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.box {
+    justify-content: space-between;
+}
+
+.names {
+    display: flex;
+    align-items: center;
+}
+
+.ppl-s {
+    margin-right: 20px;
+}
+
+/* DRY */
+/* DON'T-REPEAT-YOURSELF */
